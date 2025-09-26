@@ -1,0 +1,42 @@
+# Core ML and NLP libraries
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+torch>=2.0.0
+accelerate>=0.20.0
+faiss-cpu>=1.7.4
+rank-bm25>=0.2.2
+
+# Document processing
+pymupdf>=1.23.0
+pdfplumber>=0.9.0
+python-docx>=0.8.11
+python-pptx>=0.6.21
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.1
+
+# Image processing and OCR
+pillow>=10.0.0
+pytesseract>=0.3.10
+easyocr>=1.7.0
+opencv-python-headless>=4.8.0
+
+# Web framework and API
+fastapi>=0.100.0
+uvicorn>=0.23.0
+httpx>=0.24.0
+requests>=2.31.0
+
+# Email functionality
+email-validator>=2.0.0
+aiosmtplib>=2.0.0
+
+# Text processing
+langchain>=0.0.300
+langchain-text-splitters>=0.0.1
+
+# Data processing
+numpy>=1.24.0
+
+# Modal (for deployment)
+modal>=0.60.0
